@@ -1,0 +1,133 @@
+.main{
+ justify-content: center;
+ align-items: center;
+ display: grid
+}
+.maintext{
+    margin: 30px;
+    font-size: 30px;
+    font-family: Space Grotesk;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.secondtext{
+    font-family: Space Grotesk;
+    font-size: 25px;
+    color: #FFFFFF80;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.uploadimage{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px dashed #FFFFFF;
+    border-radius: 200px;
+    margin: 0;
+    padding: 5px;
+    left: 70px;
+}
+
+.icon{
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.80);
+}
+
+.btn{
+    position: relative;
+    color: white;
+    font-size: 10px;
+    transform: scale(1.25);
+    width: 100px;
+    height: 25px;
+    left: 90px;
+    margin-top: 20px;
+    transform: scale(0.90);
+}
+
+.upbtn{
+    display: flex;
+    flex-direction: row;
+    
+}
+.uploaddelete{
+    display: flex;
+    flex-direction: row;
+}
+
+.delete{
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 17px;
+    /* identical to box height */
+    text-transform: uppercase;
+    left: 100px;
+    margin-top: 25px;
+    
+    color: rgba(255, 255, 255, 0.28);
+}
+
+.bottomfield{
+    position: absolute;
+    display: grid;
+    margin-left: 20px;
+    top: 30px;
+    left: 120px;
+}
+
+.name{
+    
+    display: grid;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    justify-content: left;
+    text-align: left;
+
+color: #FFFFFF;
+}
+
+.nameinput{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+margin-top: 10px;
+color: rgba(255, 255, 255, 0.46);
+
+}
+
+.nameline{
+    margin-top: 10px;
+    width: 337.5px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.nameinput2{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+margin-top: 10px;
+color: rgba(255, 255, 255, 0.46);
+
+}
+
+.icons{
+    padding-top: 10px;
+    padding-right: 10px;
+   align-items:center;
+}

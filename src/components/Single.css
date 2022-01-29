@@ -1,0 +1,223 @@
+.maintext{
+    margin: 30px;
+    font-size: 33px;
+    font-family: Space Grotesk;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.secondtext{
+    font-family: Space Grotesk;
+    font-size: 25px;
+    color: #FFFFFF80;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: row;
+}
+
+.upload{
+    display: flex;
+    position: absolute;
+    width: 450px;
+    height: 200px;
+    left: 221px;
+    top: 200px;
+    background: #2A3340;
+    border: 1px dashed rgba(255, 255, 255, 0.24);
+    box-sizing: border-box;
+    border-radius: 4px;
+    transform: scale(0.75);
+}
+.uploadcontent{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+.uploadicon{
+    position: fixed;
+    transform: scale(0.25);
+
+}
+.textbtn{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 0px 0px 150px;
+}
+.text{
+    position: relative;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.btn{
+    color: white;
+    font-size: 10px;
+    transform: scale(1.25);
+    width: 115px;
+    height: 25px;
+    /* left: 381px;
+    top: 390px; */
+
+background: rgba(255, 52, 101, 0.13);
+border-radius: 70px;
+}
+
+.bottomfield{
+    display: grid;
+}
+
+.name{
+    display: grid;
+    position: relative;
+    left: 221px;
+    top: 200px;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    justify-content: left;
+    text-align: left;
+
+color: #FFFFFF;
+}
+.name2{
+    display: grid;
+    position: relative;
+    left: 221px;
+    top: 200px;
+    margin-top: 40px;
+    margin-left: 60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    justify-content: left;
+    text-align: left;
+
+color: #FFFFFF;
+}
+
+
+
+.nameinput{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+margin-top: 10px;
+color: rgba(255, 255, 255, 0.46);
+
+}
+
+.nameline{
+    margin-top: 10px;
+    width: 337.5px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.slider{
+    margin-left: 160px;
+    transform: scale(0.90);
+}
+.slider2{
+    margin-left: 220px;
+    transform: scale(0.90);
+}
+.price{
+    display: flex;
+}
+
+.pricebtn{
+    width: 50px;
+    height: 25px;
+    background: #303B4B;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.pricebtntext{
+    padding: 3px;
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+}
+
+.btn2{
+    margin-top: 20px;
+width: 337.5px;
+height: 40px;
+color: white;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+background: #FF3465;
+border-radius: 5px;
+}
+.wallet{
+    margin: 0px 0px 0px -30px;
+    transform: scale(0.75);
+}
+.conwal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle{
+    position: absolute;
+width: 488px;
+height: 0px;
+left: 430px;
+top: 470px;
+
+border: 1px solid rgba(255, 255, 255, 0.17);
+transform: rotate(90deg)
+}
+
+.fullpage{
+    display: flex;
+}
+
+.rightside{
+    position: absolute;
+width: 74px;
+height: 19px;
+left: 720px;
+top: 210px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.previewbox{
+   margin-top: 10px;
+width: 318px;
+height: 400px;
+left: 768px;
+top: 309px;
+
+background: #27303D;
+}
